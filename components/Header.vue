@@ -1,0 +1,23 @@
+<template>
+  <UContainer class="sticky top-10 z-50 w-full">
+    <UButton
+      block
+      class="top-4 flex items-center justify-between rounded-full border border-[#F1F1F3A3] bg-[#FCFCFD40]"
+    >
+      <img src="/greep-logo-name.svg" alt="" class="" />
+
+      <UButton :ui="{ rounded: 'rounded-full' }" class="w-fit">
+        Get Started
+        <UButton
+          icon="i-icon-arrow-north-east"
+          color="black"
+          class="rounded-full"
+        />
+      </UButton>
+    </UButton>
+  </UContainer>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>

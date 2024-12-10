@@ -1,0 +1,17 @@
+<svg width="681" height="454" viewBox="0 0 681 454" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="648.5" y="422" width="32" height="32" rx="16" fill="#06DB8F" class="animate-ping"/>
+<circle cx="664.5" cy="438" r="12" fill="#06DB8F" class="animate-ping"/>
+<circle cx="664.5" cy="438" r="12" fill="black" fill-opacity="0.2"/>
+<rect x="0.5" width="32" height="32" rx="16" fill="#06DB8F" class="animate-ping"/>
+<circle cx="16.5" cy="16" r="12" fill="#06DB8F" class="animate-ping"/>
+<circle cx="16.5" cy="16" r="12" fill="black" fill-opacity="0.2"/>
+<path d="M14.5 48V81C14.5 102.539 31.9609 120 53.5 120H559.5" stroke="#009260" stroke-width="6" stroke-linecap="round"/>
+<path d="M85.5 368V401C85.5 422.539 102.961 440 124.5 440H630.5" stroke="#009260" stroke-width="6" stroke-linecap="round"/>
+<path d="M86.5 298V256.264C86.5 236.382 102.618 220.264 122.5 220.264H557.5C577.382 220.264 593.5 204.147 593.5 184.264V151" stroke="#009260" stroke-width="6" stroke-linecap="round"/>
+<rect x="70.5" y="317" width="32" height="32" rx="16" fill="#06DB8F" class="animate-ping"/>
+<circle cx="86.5" cy="333" r="12" fill="#06DB8F" class="animate-ping"/>
+<circle cx="86.5" cy="333" r="12" fill="black" fill-opacity="0.2"/>
+<rect x="577.5" y="104" width="32" height="32" rx="16" fill="#06DB8F" class="animate-ping"/>
+<circle cx="593.5" cy="120" r="12" fill="#06DB8F" class="animate-ping"/>
+<circle cx="593.5" cy="120" r="12" fill="black" fill-opacity="0.2"/>
+</svg>
