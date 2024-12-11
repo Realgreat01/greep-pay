@@ -1,5 +1,5 @@
 <template>
-  <UContainer class="grid grid-cols-2 bg-white">
+  <UContainer class="grid bg-white lg:grid-cols-2">
     <div class="flex w-3/4 flex-col justify-center gap-y-10">
       <h2 class="text-2xl font-semibold">Join the Waitlist and Earn More</h2>
       <p class="text-xl">
@@ -16,7 +16,7 @@
         />
       </UButton>
     </div>
-    <img src="/images/party.png" alt="" class="h-[550px]" />
+    <img src="/images/party.png" alt="" class="lg:max-h-[550px]" />
   </UContainer>
 </template>
 

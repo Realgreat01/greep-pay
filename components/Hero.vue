@@ -1,8 +1,9 @@
 <template>
   <div class="hero">
-    <Header />
     <UContainer>
-      <div class="relative flex justify-center gap-10 pt-20 lg:min-h-[600px]">
+      <div
+        class="relative flex flex-col justify-center gap-10 pt-20 lg:min-h-[600px] lg:flex-row"
+      >
         <div
           class="flex w-fit max-w-[578px] flex-col gap-5 text-white lg:mt-[120px]"
         >
@@ -36,7 +37,7 @@
             />
           </UButton>
         </div>
-        <img src="/images/greep-pos.png" alt="" class="h-[635px]" />
+        <img src="/images/greep-pos.png" alt="" class="lg:h-[635px]" />
       </div>
     </UContainer>
   </div>
@@ -45,12 +46,12 @@
 <script setup lang="ts"></script>
 
 <style scoped>
-.hero {
+/* .hero {
   background-image: url("/images/hero.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 .greep-pay {
   position: relative;
   background-image: url("/images/spiral.svg");

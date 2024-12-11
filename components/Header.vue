@@ -1,8 +1,8 @@
 <template>
   <UContainer class="sticky top-10 z-50 w-full">
-    <UButton
+    <div
       block
-      class="top-4 flex items-center justify-between rounded-full border border-[#F1F1F3A3] bg-[#FCFCFD40]"
+      class="top-4 flex items-center justify-between rounded-full border border-[#F1F1F3A3] bg-[#FCFCFD40] p-2"
     >
       <img src="/greep-logo-name.svg" alt="" class="" />
 
@@ -14,7 +14,7 @@
           class="rounded-full"
         />
       </UButton>
-    </UButton>
+    </div>
   </UContainer>
 </template>
 

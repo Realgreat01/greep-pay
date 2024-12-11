@@ -3,12 +3,12 @@
     <UContainer
       class="flex h-fit w-full flex-col items-center gap-8 p-10 text-white"
     >
-      <h2 class="text-3xl font-semibold">
+      <h2 class="text-center text-xl font-semibold lg:text-3xl">
         Trusted by <span class="text-green-400">Merchants </span>Around the
         World
       </h2>
 
-      <div class="grid grid-cols-3 gap-10">
+      <div class="grid gap-10 lg:grid-cols-3">
         <UCard class="bg-[#27322F3D] ring-0" v-for="testimony in testimonials">
           <UIcon name="i-icon-quotes" class="h-12 w-12" />
 
@@ -20,10 +20,10 @@
               alt=""
               class="block h-12 w-12 rounded-full"
             />
-            <h2 class="">
+            <div class="">
               <h2 class="text-sm font-medium">{{ testimony.name }}</h2>
               <h2 class="text-xs font-light">{{ testimony.title }}</h2>
-            </h2>
+            </div>
           </div>
         </UCard>
       </div>

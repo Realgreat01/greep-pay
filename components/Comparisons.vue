@@ -1,13 +1,13 @@
 <template>
   <div class="">
     <UContainer
-      class="flex flex-col items-center gap-8 bg-black p-10 text-white"
+      class="flex flex-col items-center gap-8 bg-black py-5 text-white lg:p-10 lg:py-10"
     >
       <h2 class="text-2xl font-semibold">Soft POS vs. Hardware POS</h2>
 
-      <div class="grid w-3/4 gap-1">
+      <div class="grid gap-1 lg:w-3/4">
         <div
-          class="grid grid-cols-3 gap-2 rounded-lg p-4 text-sm font-semibold"
+          class="grid grid-cols-3 gap-2 rounded-lg p-4 text-xs lg:text-sm lg:font-semibold"
           :class="[index % 2 === 0 ? 'bg-[#3D544D80]' : 'bg-[#3D544D40]']"
           v-for="(feature, index) in features"
         >

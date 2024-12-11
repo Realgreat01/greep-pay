@@ -8,8 +8,8 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: "Greep - POS",
-  ogTitle: "Greep - POS",
+  title: "GreepPay",
+  ogTitle: "GreepPay",
   applicationName: "Greep",
   description:
     "Greep is your go-to platform for ordering affordable and authentic African food items, designed specifically for Africans living in the diaspora. We bring the taste of home right to your doorstep, with a mission to make your favorite African meals accessible, no matter where you are in the world",

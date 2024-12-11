@@ -1,10 +1,12 @@
 <template>
-  <UContainer class="flex flex-col items-center gap-8 p-10 text-white">
-    <h2 class="text-2xl font-semibold">
+  <UContainer class="flex flex-col items-center gap-8 py-10 text-white lg:p-10">
+    <h2 class="text-center text-xl font-semibold lg:text-2xl">
       What GreepPay Brings to Your Business
     </h2>
 
-    <div class="flex w-[70%] items-stretch justify-between gap-x-10">
+    <div
+      class="flex flex-col items-stretch justify-between gap-10 lg:w-[70%] lg:flex-row"
+    >
       <img
         src="/images/card-payment.svg"
         alt=""

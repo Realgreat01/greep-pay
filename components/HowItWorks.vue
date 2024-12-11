@@ -1,13 +1,13 @@
 <template>
   <div class="">
     <UContainer
-      class="how-it-works flex h-fit w-full flex-col items-center gap-8 p-10 text-white"
+      class="how-it-works flex h-fit w-full flex-col items-center gap-8 py-10 text-white lg:p-10"
     >
       <h2 class="text-3xl">
         How <span class="splash font-semibold"> GreepPay </span> Works
       </h2>
       <div
-        class="card-container w-4/5 rounded-2xl bg-[#36625552] py-10 ring-4 ring-[#06DB8F26]"
+        class="card-container hidden rounded-2xl bg-[#36625552] py-10 ring-4 ring-[#06DB8F26] lg:block lg:w-4/5"
       >
         <div class="card-inner grid grid-cols-2 gap-10 p-5">
           <div
@@ -19,6 +19,25 @@
             <div class="pl-2">
               <h2 class="text-lg font-semibold">{{ step.title }}</h2>
               <ul class="ml-4 list-disc text-sm">
+                <li v-for="i in step.steps">{{ i }}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card-container rounded-2xl bg-[#36625552] py-10 ring-4 ring-[#06DB8F26] lg:hidden lg:w-4/5"
+      >
+        <div class="card-inners grid gap-10 p-5">
+          <div
+            class="flex w-full gap-x-2"
+            v-for="step in steps.filter((x) => x.title !== '')"
+            :class="step.class"
+          >
+            <img :src="step.image" alt="" class="block h-20" />
+            <div class="pl-2">
+              <h2 class="font-semibold">{{ step.title }}</h2>
+              <ul class="ml-4 list-disc text-xs">
                 <li v-for="i in step.steps">{{ i }}</li>
               </ul>
             </div>
@@ -68,7 +87,7 @@ const steps = ref([
       "Customers pay using stablecoins or local fiat via QR codes, NFC, or card swipe.",
       "Greeppay converts fiat to stablecoins (and vice versa) instantly.",
     ],
-    class: "ml-5",
+    class: "lg:ml-5",
   },
   {
     title: "Earn GRP Tokens",
