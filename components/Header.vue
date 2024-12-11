@@ -4,7 +4,8 @@
       block
       class="top-4 flex items-center justify-between rounded-full border border-[#F1F1F3A3] bg-[#FCFCFD40] p-2"
     >
-      <img src="/greep-logo-name.svg" alt="" class="" />
+      <img src="/greep-logo-name.svg" alt="" class="hidden lg:block" />
+      <img src="/greep.svg" alt="" class="lg:hidden" />
 
       <UButton :ui="{ rounded: 'rounded-full' }" class="w-fit">
         Get Started
