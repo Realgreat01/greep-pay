@@ -18,8 +18,8 @@
           class="h-fit border-l-4 border-green-400 pl-4"
           v-for="benefit in benefits"
         >
-          <h2 class="text-lg font-semibold">{{ benefit.label }}</h2>
-          <p class="">{{ benefit.description }}</p>
+          <h2 class="font-semibold lg:text-lg">{{ benefit.label }}</h2>
+          <p class="text-sm lg:text-base">{{ benefit.description }}</p>
         </div>
         <UButton :ui="{ rounded: 'rounded-full' }" class="w-fit">
           Start Accepting Payments Today

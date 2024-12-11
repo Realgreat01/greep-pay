@@ -21,7 +21,7 @@
               Greep<span class="text-green-400">Pay &nbsp; &nbsp;</span>
             </span>
           </h1>
-          <h2 class="text-gray-400">
+          <h2 class="text-sm text-gray-400 lg:text-base">
             Accept African currencies and stablecoins like USDT while earning
             GRP tokens every time you process a payment. Join our waitlist and
             be part of the future of borderless payments!
